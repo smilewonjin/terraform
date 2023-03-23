@@ -29,6 +29,7 @@
 
 
 > terraform init
+
 `terraform init`
 
 
@@ -36,6 +37,7 @@
 
 
 > terraform plan
+
 `terraform plan -out main.tfplan`
 
 ![image](https://user-images.githubusercontent.com/126428788/227118050-5378bdb2-b0ec-46db-aa95-8248cf8ce46d.png)
@@ -43,21 +45,26 @@
 
 
 > terraform apply
+
 `terraform apply main.tfplan`
 
 ![image](https://user-images.githubusercontent.com/126428788/227118872-990a89d3-3d3d-4418-b131-23f9569d5944.png)
 
 
 > Azure portal
+
 ![image](https://user-images.githubusercontent.com/126428788/227122267-59a79534-52bd-4363-874b-f5040785e4f7.png)
 
 # **VM Login**
 > 사설키 생성
+
  `terraform output -raw tls_private_key > id_rsa`
  
 > 사설키 읽기 전용 액세스 권한 변경
+
  `chmod 400 <keyname>.pem`
  
 > VM login
+
  `ssh -i <private key path> azureuser@[public IP]` 
 ![image](https://user-images.githubusercontent.com/126428788/227143828-1aeec90b-e616-4043-90cd-1a03e0ea0c5b.png)
