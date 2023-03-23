@@ -11,7 +11,7 @@
     export ARM_CLIENT_ID="[azure portal user account]"
     export ARM_CLIENT_SECRET="<azure portal user account password>"
     
-    ````
+  ````
 
   `printenv | grep ^ARM*`
  
