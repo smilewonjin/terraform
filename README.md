@@ -40,3 +40,6 @@
 `terraform apply main.tfplan`
 
 ![image](https://user-images.githubusercontent.com/126428788/227118872-990a89d3-3d3d-4418-b131-23f9569d5944.png)
+
+# Azure portal
+![image](https://user-images.githubusercontent.com/126428788/227122267-59a79534-52bd-4363-874b-f5040785e4f7.png)
