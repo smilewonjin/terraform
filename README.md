@@ -6,10 +6,10 @@
   ![image](https://user-images.githubusercontent.com/126428788/227119299-7c7fede5-854d-4e3e-9c51-8ee8d390e49e.png)
 
 ````
-  export ARM_SUBSCRIPTION_ID=**"[id(subscription)]"**
-  export ARM_TENANT_ID=**"[homeTenantId or tenantId]"**
-  export ARM_CLIENT_ID=**"[azure portal user account]"**
-  export ARM_CLIENT_SECRET=**"<azure portal user account password>"**
+  export ARM_SUBSCRIPTION_ID="[id(subscription)]"
+  export ARM_TENANT_ID="[homeTenantId or tenantId]"
+  export ARM_CLIENT_ID="[azure portal user account]"
+  export ARM_CLIENT_SECRET="<azure portal user account password>"
 ````
 
   `printenv | grep ^ARM*`
