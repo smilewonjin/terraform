@@ -1,4 +1,4 @@
-# az account info
+# azure account info
 `az account show`
 
   ![image](https://user-images.githubusercontent.com/126428788/227119299-7c7fede5-854d-4e3e-9c51-8ee8d390e49e.png)
