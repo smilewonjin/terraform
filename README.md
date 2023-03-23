@@ -66,7 +66,7 @@
 
   `chmod 400 <keyname>.pem`
  
- 
+ ㅏ
 > VM login
 
   `ssh -i <private key path> azureuser@[public IP]` 
