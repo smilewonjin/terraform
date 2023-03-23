@@ -60,4 +60,4 @@
  
 # VM login
  `ssh -i <private key path> azureuser@[public IP]` 
-![image](https://user-images.githubusercontent.com/126428788/227142395-49ba855e-f446-4e5c-a868-f18905780228.png)
+![image](https://user-images.githubusercontent.com/126428788/227143828-1aeec90b-e616-4043-90cd-1a03e0ea0c5b.png)
