@@ -10,8 +10,8 @@
   export ARM_CLIENT_SECRET="<azure portal user account password>"
 ````
 
-`printenv | grep ^ARM*`
-`. ~/.bashrc`
+  `printenv | grep ^ARM*`
+  `. ~/.bashrc`
 
  `mkdir test`
  `vi providers.tf`
