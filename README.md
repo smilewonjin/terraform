@@ -1,5 +1,5 @@
 ## **Azure Infrastructure를 Terraform을 이용하여 코드 기반 생성**
-> azure account info
+> **azure account info**
 
   `az account show`
 
@@ -28,14 +28,14 @@
   `vi outputs.tf`
 
 
-> terraform init
+> **terraform init**
 
   `terraform init`
 
   ![image](https://user-images.githubusercontent.com/126428788/227118353-1c92eaa2-8f07-4ab7-ba8b-f50a04b7bdd1.png)
 
 
-> terraform plan
+> **terraform plan**
 
   `terraform plan -out main.tfplan`
 
@@ -43,30 +43,30 @@
   ![image](https://user-images.githubusercontent.com/126428788/227118224-37e41bd6-aabb-4bd8-906d-16b7a71944b7.png)
 
 
-> terraform apply
+> **terraform apply**
 
   `terraform apply main.tfplan`
 
   ![image](https://user-images.githubusercontent.com/126428788/227118872-990a89d3-3d3d-4418-b131-23f9569d5944.png)
 
 
-> Azure portal
+> **Azure portal**
 
   ![image](https://user-images.githubusercontent.com/126428788/227122267-59a79534-52bd-4363-874b-f5040785e4f7.png)
 
 
 ## **VM Login**
-> 사설키 생성
+> **사설키 생성**
     
   `terraform output -raw tls_private_key > id_rsa`
  
  
- > 사설키 읽기 전용 액세스 권한 변경
+ > **사설키 읽기 전용 액세스 권한 변경**
 
   `chmod 400 <keyname>.pem`
  
 
-> VM login
+> **VM login**
 
   `ssh -i <private key path> azureuser@[public IP]` 
   ![image](https://user-images.githubusercontent.com/126428788/227143828-1aeec90b-e616-4043-90cd-1a03e0ea0c5b.png)
