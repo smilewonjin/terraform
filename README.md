@@ -55,14 +55,17 @@
 
 ![image](https://user-images.githubusercontent.com/126428788/227122267-59a79534-52bd-4363-874b-f5040785e4f7.png)
 
+
 # **VM Login**
 > 사설키 생성
 
  `terraform output -raw tls_private_key > id_rsa`
  
+ 
 > 사설키 읽기 전용 액세스 권한 변경
 
  `chmod 400 <keyname>.pem`
+ 
  
 > VM login
 
