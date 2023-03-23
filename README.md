@@ -1,6 +1,6 @@
 ## **Azure Infrastructure를 Terraform을 이용하여 코드 기반 생성**
 > 참조
- * <[https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform](https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform)>
+ * [https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform](https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform)
  
  
 > **azure account info**
