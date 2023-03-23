@@ -28,7 +28,6 @@
   `vi outputs.tf`
 
 
-
 > terraform init
 
   `terraform init`
@@ -62,11 +61,11 @@
   `terraform output -raw tls_private_key > id_rsa`
  
  
-> 사설키 읽기 전용 액세스 권한 변경
+ > 사설키 읽기 전용 액세스 권한 변경
 
   `chmod 400 <keyname>.pem`
  
- ㅏ
+
 > VM login
 
   `ssh -i <private key path> azureuser@[public IP]` 
