@@ -12,7 +12,7 @@
 
   `printenv | grep ^ARM*`
   `. ~/.bashrc`
-
+ 
  `mkdir test`
  `vi providers.tf`
  `vi main.tf`
