@@ -2,7 +2,6 @@
 > 참조
  * [https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform](https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform)
  
- 
 > **azure account info**
 
   `az account show`
