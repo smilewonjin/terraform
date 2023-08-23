@@ -1,7 +1,7 @@
 variable "resource_group_location" {
   type        = string
   description = "Location for all resources."
-  default     = "eastus"
+  default     = "korea central"
 }
 
 variable "resource_group_name_prefix" {
