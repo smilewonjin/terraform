@@ -2,6 +2,9 @@
 https://computingforgeeks.com/how-to-install-terraform-on-ubuntu/
 <br>https://learn.microsoft.com/ko-kr/azure/developer/terraform/quickstart-configure
 
+## Azure CLI 설치
+https://learn.microsoft.com/ko-kr/cli/azure/install-azure-cli-linux?pivots=apt
+
 ## **Terraform을 이용한 Azure Infrastructure코드 기반 생성**
 > 참조
  * [https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform](https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform)
