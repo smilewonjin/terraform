@@ -13,5 +13,17 @@ variable "resource_group_name_prefix" {
 variable "username" {
   type        = string
   description = "The username for the local account that will be created on the new VM."
-  default     = "azureadmin"
+  default     = "azureuser"
+}
+
+variable "prefix" {
+  type        = string
+  description = "Prefix of the resource group name that's combined with a random ID so name is unique in your Azure subscription."
+  default     = "K8S-DEV"
+}
+
+variable "hostname" {
+  type        = string
+  description = "The username for the local account that will be created on the new VM."
+  default     = "k8s-w"
 }
