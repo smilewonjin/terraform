@@ -1,3 +1,7 @@
+## terraform 설치
+https://computingforgeeks.com/how-to-install-terraform-on-ubuntu/
+https://learn.microsoft.com/ko-kr/azure/developer/terraform/quickstart-configure
+
 ## **Terraform을 이용한 Azure Infrastructure코드 기반 생성**
 > 참조
  * [https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform](https://learn.microsoft.com/ko-kr/azure/virtual-machines/linux/quick-create-terraform)
