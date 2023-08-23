@@ -4,6 +4,9 @@ resource "azurerm_resource_group" "rg" {
   location = var.resource_group_location
 }
 
+resource "azurerm_subnet" "test" {
+  name                 = net-10.200.1.0
+}
 
 
 resource "azurerm_public_ip" "test" {
